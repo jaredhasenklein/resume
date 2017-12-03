@@ -1,8 +1,13 @@
 <!DOCTYPE HTML>
 <!--
-	Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Welcome to the source code for Jared Hasen-Klein's resume
+	This website was designed using the "Read Only" theme from HTML5 UP (html5up.net)
+	The theme is free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+	Esentially I took the layout and modified it to fit my needs.
+	I also added comments to make the code easier to follow.
+
+	jhasenklein@gmail.com | (818) 439 - 2892 | jaredhk.com | resume.jaredhk.com
 -->
 <html>
 	<head>
@@ -16,13 +21,15 @@
 	<body>
 
 		<!-- Header -->
+			<!--The "header" is really the sidebar in this theme - except on mobile. -->
 			<section id="header">
 				<header>
 					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Jared Hasen-Klein</a></h1>
+					<h1 id="logo"><a href="#">Jared Hasen-Klein</a></h1> <!--This will be the title at the top on mobile -->
 					<p>Student, volunteer, advocate,<br />
 					and robot enthusiast. </p>
 				</header>
+			<!--The navigation bar highlights when you are in that div. So, it makes sense to have them in the same order here. -->	
 				<nav id="nav">
 					<ul>
 						<li><a href="#work">Work Experience</a></li>
@@ -35,6 +42,7 @@
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</nav>
+			<!--The "footer" is really the footer of the sidebar only. There's another section near the end with more info. -->
 				<footer>
 					<ul class="icons">
 						<li><a href="http://facebook.com/jhasenklein" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
@@ -49,10 +57,10 @@
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Main -->
+				<!-- Main (start of page content) -->
 					<div id="main">
 
-						<!-- One -->
+						<!-- Intro -->
 							<section id="one">
 								<div class="container">
 									<header class="major">
@@ -67,10 +75,12 @@
 								<div class="container">
 									<h3>Work Experience</h3>
 									<p></p>
-									<div class="features">
+									<div class="features"> <!--Features class is the predefined layout with an image, title, and body text -->
+										<!-- Start Sierra Canyon Day Camp (Work #1) -->
 										<article>
 											<a href="#" class="image"><img src="images/pic01.png" alt="" /></a>
 											<div class="inner">
+												
 												<h4><a href="http://sierracanyondaycamp.com">Sierra Canyon Day Camp</a></h4>
 												<p>Chatsworth, CA</p>
 												<h5>Junior Counselor      <i>June 2015 – August 2016</i></h5>
@@ -81,6 +91,7 @@
 													<p>All Junior Counselor responsibilities plus trained Junior Counselor, planned and executed an overnight for 200 campers, and worked as a specialist for a day – planning “Movie Magic” activity with green screen effects for various age groups.</p>	
 											</div>
 										</article>
+										<!-- Start Heschel Day School (Work #2) -->
 										<article>
 											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 											<div class="inner">
@@ -90,6 +101,7 @@
 													<p>Helped teach and coach 3rd – 8th grade students (about 20) in the FIRST LEGO League robotics competition. The team was recognized with the Global Innovation Award nomination from the Los Angeles Region.</p>	
 											</div>
 										</article>
+										<!-- Start Jewish Federation (Work #3) -->
 										<article>
 											<a href="#" class="image"><img src="images/pic03.png" alt="" /></a>
 											<div class="inner">
@@ -108,6 +120,7 @@
 									<h3>Volunteer Experience</h3>
 									<p></p>
 									<div class="features">
+										<!-- Start AIDS Walk LA (Vol #1) -->
 										<article>
 											<a href="#" class="image"><img src="images/pic04.png" alt="" /></a>
 											<div class="inner">
@@ -121,6 +134,7 @@
 													<p>Visited the AIDS Walk LA office at least twice per week for several months leading up to the event. Stuffed envelopes, made phone calls, assembled materials, and did anything else needed by event staff.</p>	
 											</div>
 										</article>
+										<!-- Start FLL (Vol #2) -->
 										<article>
 											<a href="#" class="image"><img src="images/pic05.png" alt="" /></a>
 											<div class="inner">
@@ -133,12 +147,13 @@
 									</div>
 								</div>
 							</section>
-						<!-- Vol Experience -->
+						<!-- Education -->
 							<section id="edu">
 								<div class="container">
 									<h3>Education & Organizations</h3>
 									<p></p>
 									<div class="features">
+										<!-- Start FRC 1836 (Edu #1) -->
 										<article>
 											<a href="#" class="image"><img src="images/pic06.png" alt="" /></a>
 											<div class="inner">
@@ -148,6 +163,7 @@
 													<p>Lead Operations & Public Relations subteam as part of FIRST Robotics Competition Team 1836: The MilkenKnights. Organized demos, managed sponsors, handled team logistics, and more.</p>
 											</div>
 										</article>
+										<!-- Start Milken (Edu #1) -->
 										<article>
 											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
 											<div class="inner">
@@ -166,6 +182,8 @@
 								<div class="container">
 									<h3>Skills</h3>
 									<p></p>
+									<!-- With this predefined class, we can list skills/interests/etc.
+									     Text is paired with a Font Awesome icon. -->
 									<ul class="feature-icons">
 										<li class="fa-windows">MS Office Suite</li>
 										<li class="fa-font">Adobe Creative Cloud</li>
@@ -183,6 +201,7 @@
 								<div class="container">
 									<h3>Interests</h3>
 									<p></p>
+									<!--Another prefined icon style. See section above -->
 									<ul class="feature-icons">
 										<li class="fa-gavel">Politics</li>
 										<li class="fa-users">Civil Rights</li>
@@ -200,6 +219,9 @@
 								<div class="container">
 									<h3>Awards</h3>
 									<p></p>
+									<!--This uses the same style but with one key difference:
+									    The style puts two icons side by side. Rather than creating a new style, I cheated and
+									    ommited every alternating line. -->
 									<ul class="feature-icons">
 										<li class="fa-trophy">FIRST LEGO League - Outstanding Youth Volunteer Award</li>
 										<li></li>
@@ -214,10 +236,11 @@
 								<div class="container">
 									<h3>Projects</h3>
 									<p>Click a project to visit</p>
+									<!--Same as previous few setions. Just added space for links and description text. -->
 									<ul class="feature-icons">
 										<a href="http://milkenroar.com"><li class="fa-newspaper-o">Milken Roar</li></a>
 										<p>Webmaster of student newspaer</p>
-										<a href="http:/hub.jaredhk.com"><li class="fa-android">Robotics Resource Hub</li></a>
+										<a href="http://hub.jaredhk.com"><li class="fa-android">Robotics Resource Hub</li></a>
 										<p>Free robotics resources for FLL, FTC, FRC, and VRC</p>
 									</ul>
 								</div>
@@ -227,6 +250,9 @@
 								<div class="container">
 									<h3>Contact Me</h3>
 									<p></p>
+									<!--The contact form submits using an awesome website called Formfarm.
+									With this service, all you need to do is post to formfarm.io/{YourEmail}.
+									Once you click the button the first time, it'll bring up a page to confirm your details.-->
 									<form method="post" action="https://formfarm.im/jhasenklein+resume@gmail.com">
 										<div class="row uniform">
 											<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
@@ -252,10 +278,11 @@
 					</div>
 
 				<!-- Footer -->
+					<!--This is the "real" footer - the bottom of the entire site, not just the sidebar.-->
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>Jared Hasen-Klein</li><li>Theme: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>Jared Hasen-Klein</li><li>Theme: <a href="http://html5up.net">HTML5 UP</a></li> <!--Theme credit mandated by CC-->
 								<p>Logos are property of their respective trademark owners. Content on this website is not endorsed or approved by any of the entities listed.</p>
 							</ul>
 						</div>
