@@ -9,8 +9,10 @@ jhasenklein@gmail.com | jhasen-klein669@milkenschool.org
 ### Projects
 FRC Team 1836: The MilkenKnights ([milkenknights.com](http://milkenknights.com))
 >Director of Team Operations
+
 The Milken Roar ([milkenroar.com](http://milkenroar.com))
 >Webmaster
+
 Robotics Resource Hub ([hub.jaredhk.com](http://hub.jaredhk.com))
 >FIRST LEGO League, FIRST Tech Challenge, FIRST Robotics Competiton, and VEX Robotics Competition
 
