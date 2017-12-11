@@ -17,6 +17,11 @@
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<style>
+			.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; }
+		</style>
 	</head>
 	<body>
 
@@ -230,7 +235,9 @@
 										<li class="fa-trophy">FIRST Dean's List Finalist Award, Idaho Regional (Mar. 2017)</li>
 										<li></li>
 										<li class="fa-trophy">FIRST LEGO League - Most Valuable Youth Volunteer Award, Los Angeles Championship (Dec. 2016)</li>
-										
+										<div class="hover_img">
+     <a href="#">Show Image<span><img src="images/01.png" alt="image" height="100" /></span></a>
+</div>
 									</ul>
 								</div>
 						</section>
